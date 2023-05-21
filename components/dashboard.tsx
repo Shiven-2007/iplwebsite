@@ -101,6 +101,7 @@ const Dashboard = ({ datarec }: { datarec: any }) => {
 											: ""
 									}
                                     `}
+									key={index}
 								>
 									<input
 										type="radio"
