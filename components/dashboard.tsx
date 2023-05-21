@@ -22,7 +22,7 @@ ChartJS.register(
 	Legend
 );
 
-const dashboard = ({ datarec }: { datarec: any }) => {
+const Dashboard = ({ datarec }: { datarec: any }) => {
 	const [hydrated, setHydrated] = useState(false);
 	useEffect(() => {
 		setHydrated(true);
@@ -136,4 +136,4 @@ const dashboard = ({ datarec }: { datarec: any }) => {
 	);
 };
 
-export default dashboard;
+export default Dashboard;
